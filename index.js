@@ -29,4 +29,21 @@ globalBasePrice = 25000;
 car1 ["finalPrice"] = car1["basePrice"] + globalBasePrice;
 car2 ["finalPrice"] = car2["basePrice"] + globalBasePrice;
 
+// Iteración #3: Operadores
 
+//1.1
+alert(10 * 5);
+
+//1.2
+alert(10 / 2);
+
+//1.3
+alert(15 % 9);
+
+//1.4
+y = 10;
+z = 5;
+x = y + z;
+
+//1.5
+x = y * z;
