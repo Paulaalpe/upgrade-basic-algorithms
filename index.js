@@ -1,4 +1,4 @@
-/*// Iteración #1: Variables
+// Iteración #1: Variables
 let myFavoriteHero = "Hulk";
 let x = 50;
 let h = 5;
@@ -78,11 +78,8 @@ console.log(rickAndMortyCharacters2[4]);
 rickAndMortyCharacters2.splice(1,1);
 console.log(rickAndMortyCharacters2);
 
-// // Iteración #5: Condicionales
-/* ejemplo
-if(number1 === 10){
-    console.log('number1 es estrictamente igual a 10')
-}*/
+// Iteración #5: Condicionales
+// ejemplo if(number1 === 10){console.log('number1 es estrictamente igual a 10')
 
 const number1 = 10;
 const number2 = 20;
@@ -110,4 +107,26 @@ if (number3 *5 == number1 && number1 *2 == number2) {
 if (number2 /2 == number1 || number1 /5 == number3) {
     console.log("number2 entre 2 es igual a number1 O number1 entre 5 es igual a number3");
 }
-  
+
+// Iteration#6: Bucles
+// 1.1.Crea un bucle for que vaya desde 0 a 9 y muéstralo por consola
+for (let bucle1 = 0; bucle1 < 10; bucle1++) {
+    console.log(bucle1)
+}
+
+//1.2 Crea un bucle for que vaya desde 0 a 9 y muestralo por consola solo cuando el resto del numero dividido entre 2 sea 0
+for (let bucle2 = 0; bucle2 < 10; bucle2++) {
+    if (bucle2 % 2 === 0) {
+        console.log(bucle2);
+    }
+}
+
+//1.3 Crea un bucle para conseguir dormir contando ovejas. Este bucle empieza en 0 y termina en 10. Muestra por consola un mensaje diciendo 'Intentando dormir' en cada vuelta del bucle y cambia el mensaje en la última vuelta a 'Dormido!'.
+for (let bucle3 = 0; bucle3 <= 10; bucle3++) {
+    if (bucle3 < 10){
+        console.log('Intentando dormir');
+      }
+      else (
+        console.log('Dormido!')
+      )
+}
